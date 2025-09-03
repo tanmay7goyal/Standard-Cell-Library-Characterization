@@ -1,0 +1,15 @@
+* NGSPICE file created from buf.ext - technology: sky130A
+
+X0 out2 a_n20_1320# gnd gnd sky130_fd_pr__nfet_01v8 ad=0.188 pd=1.74 as=0.188 ps=1.74 w=0.47 l=0.15
+X1 out2 a_n20_1320# vdd vdd sky130_fd_pr__pfet_01v8 ad=0.56 pd=3.6 as=0.56 ps=3.6 w=1.4 l=0.15
+X2 a_n20_1320# in gnd gnd sky130_fd_pr__nfet_01v8 ad=0.188 pd=1.74 as=0.188 ps=1.74 w=0.47 l=0.15
+X3 a_n20_1320# in vdd vdd sky130_fd_pr__pfet_01v8 ad=0.56 pd=3.6 as=0.56 ps=3.6 w=1.4 l=0.15
+C0 out2 vdd 0.133585f
+C1 vdd a_n20_1320# 0.355396f
+C2 out2 a_n20_1320# 0.062456f
+C3 in vdd 0.120584f
+C4 in a_n20_1320# 0.056863f
+C5 out2 gnd 0.279111f
+C6 in gnd 0.640647f
+C7 vdd gnd 2.03588f
+C8 a_n20_1320# gnd 0.611596f

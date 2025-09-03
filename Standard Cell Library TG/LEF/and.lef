@@ -1,0 +1,72 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO projectand
+  CLASS BLOCK ;
+  FOREIGN projectand ;
+  ORIGIN 1.890 1.450 ;
+  SIZE 9.240 BY 5.980 ;
+  PIN out
+    ANTENNADIFFAREA 0.930000 ;
+    PORT
+      LAYER li1 ;
+        RECT 6.810 1.630 7.140 3.060 ;
+        RECT 6.860 0.670 7.070 1.630 ;
+        RECT 6.830 0.150 7.100 0.670 ;
+    END
+  END out
+  PIN vdd
+    ANTENNADIFFAREA 7.002000 ;
+    PORT
+      LAYER nwell ;
+        RECT -1.680 1.210 0.530 3.520 ;
+        RECT 1.800 1.210 4.010 3.520 ;
+        RECT 5.280 1.320 7.350 3.480 ;
+      LAYER li1 ;
+        RECT 2.850 4.510 3.150 4.520 ;
+        RECT -1.690 4.080 6.940 4.510 ;
+        RECT -1.500 2.000 -1.010 4.080 ;
+        RECT -0.630 2.000 -0.330 4.080 ;
+        RECT 1.980 2.070 2.400 4.080 ;
+        RECT 2.850 2.070 3.150 4.080 ;
+        RECT 5.620 3.060 6.070 4.080 ;
+        RECT 5.500 1.630 6.580 3.060 ;
+      LAYER met1 ;
+        RECT -1.720 3.990 6.980 4.530 ;
+    END
+  END vdd
+  PIN vss
+    ANTENNADIFFAREA 2.188000 ;
+    PORT
+      LAYER li1 ;
+        RECT -1.170 -0.040 -0.760 0.780 ;
+        RECT 2.920 0.600 3.170 0.770 ;
+        RECT 2.310 -0.040 3.170 0.600 ;
+        RECT 5.670 0.150 6.560 0.680 ;
+        RECT -1.160 -0.970 -0.780 -0.040 ;
+        RECT 2.310 -0.070 2.690 -0.040 ;
+        RECT 2.370 -0.970 2.680 -0.070 ;
+        RECT 5.730 -0.970 6.150 0.150 ;
+        RECT -1.820 -1.450 6.810 -0.970 ;
+      LAYER met1 ;
+        RECT -1.890 -1.450 6.810 -0.910 ;
+    END
+  END vss
+  OBS
+      LAYER li1 ;
+        RECT -0.020 1.720 0.250 2.670 ;
+        RECT 3.460 1.720 3.730 2.670 ;
+        RECT -0.020 1.550 4.900 1.720 ;
+        RECT -0.560 -0.300 -0.310 0.780 ;
+        RECT -0.020 -0.040 0.230 1.550 ;
+        RECT 4.620 1.340 4.900 1.550 ;
+        RECT 1.810 0.940 3.710 1.120 ;
+        RECT 4.620 1.020 4.990 1.340 ;
+        RECT 1.810 -0.300 2.120 0.940 ;
+        RECT 3.460 -0.090 3.710 0.940 ;
+        RECT -0.560 -0.470 2.120 -0.300 ;
+  END
+END projectand
+END LIBRARY
+

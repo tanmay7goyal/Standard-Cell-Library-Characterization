@@ -1,0 +1,80 @@
+* NGSPICE file created from D_FlipFlop_PosEdge.ext - technology: sky130A
+
+X0 a_2408_n45# a_2060_n97# vdd vdd sky130_fd_pr__pfet_01v8 ad=0.462857 pd=3.3 as=0.9855 ps=4.16 w=1.35 l=0.15
+X1 a_35_1# Clk_in a_759_n45# vss sky130_fd_pr__nfet_01v8 ad=0.21 pd=1.9 as=0.286235 ps=2.411765 w=0.6 l=0.15
+X2 a_2408_n45# a_2060_n97# vss vss sky130_fd_pr__nfet_01v8 ad=0.200365 pd=1.688235 as=0.1806 ps=1.7 w=0.42 l=0.15
+X3 a_1684_n62# a_n744_n97# a_411_n97# vdd sky130_fd_pr__pfet_01v8 ad=0.63 pd=4.3 as=0.617143 ps=4.4 w=1.8 l=0.15
+X4 a_n744_n97# Clk_in vss vss sky130_fd_pr__nfet_01v8 ad=0.168 pd=1.64 as=0.1806 ps=1.7 w=0.42 l=0.15
+X5 a_n339_n97# input vdd vdd sky130_fd_pr__pfet_01v8 ad=0.462857 pd=3.3 as=0.9855 ps=4.16 w=1.35 l=0.15
+X6 a_35_1# a_n744_n97# a_759_n45# vdd sky130_fd_pr__pfet_01v8 ad=0.63 pd=4.3 as=0.617143 ps=4.4 w=1.8 l=0.15
+X7 a_759_n45# a_411_n97# vdd vdd sky130_fd_pr__pfet_01v8 ad=0.462857 pd=3.3 as=0.9855 ps=4.16 w=1.35 l=0.15
+X8 output a_2060_n97# vdd vdd sky130_fd_pr__pfet_01v8 ad=0.54 pd=3.5 as=0.9855 ps=4.16 w=1.35 l=0.15
+X9 a_n339_n97# input vss vss sky130_fd_pr__nfet_01v8 ad=0.143294 pd=1.416471 as=0.1806 ps=1.7 w=0.42 l=0.15
+X10 a_759_n45# a_411_n97# vss vss sky130_fd_pr__nfet_01v8 ad=0.200365 pd=1.688235 as=0.1806 ps=1.7 w=0.42 l=0.15
+X11 a_2060_n97# a_1684_n62# vdd vdd sky130_fd_pr__pfet_01v8 ad=0.54 pd=3.5 as=0.9855 ps=4.16 w=1.35 l=0.15
+X12 a_35_1# Clk_in a_n339_n97# vdd sky130_fd_pr__pfet_01v8 ad=0.63 pd=4.3 as=0.617143 ps=4.4 w=1.8 l=0.15
+X13 a_1684_n62# Clk_in a_411_n97# vss sky130_fd_pr__nfet_01v8 ad=0.21 pd=1.9 as=0.204706 ps=2.02353 w=0.6 l=0.15
+X14 output a_2060_n97# vss vss sky130_fd_pr__nfet_01v8 ad=0.168 pd=1.64 as=0.1806 ps=1.7 w=0.42 l=0.15
+X15 a_411_n97# a_35_1# vdd vdd sky130_fd_pr__pfet_01v8 ad=0.462857 pd=3.3 as=0.9855 ps=4.16 w=1.35 l=0.15
+X16 a_35_1# a_n744_n97# a_n339_n97# vss sky130_fd_pr__nfet_01v8 ad=0.21 pd=1.9 as=0.204706 ps=2.02353 w=0.6 l=0.15
+X17 a_2060_n97# a_1684_n62# vss vss sky130_fd_pr__nfet_01v8 ad=0.168 pd=1.64 as=0.1806 ps=1.7 w=0.42 l=0.15
+X18 a_1684_n62# Clk_in a_2408_n45# vdd sky130_fd_pr__pfet_01v8 ad=0.63 pd=4.3 as=0.617143 ps=4.4 w=1.8 l=0.15
+X19 a_1684_n62# a_n744_n97# a_2408_n45# vss sky130_fd_pr__nfet_01v8 ad=0.21 pd=1.9 as=0.286235 ps=2.411765 w=0.6 l=0.15
+X20 a_n744_n97# Clk_in vdd vdd sky130_fd_pr__pfet_01v8 ad=0.54 pd=3.5 as=0.9855 ps=4.16 w=1.35 l=0.15
+X21 a_411_n97# a_35_1# vss vss sky130_fd_pr__nfet_01v8 ad=0.143294 pd=1.416471 as=0.1806 ps=1.7 w=0.42 l=0.15
+C0 output a_2060_n97# 0.059068f
+C1 a_35_1# a_411_n97# 0.343234f
+C2 vdd a_759_n45# 0.037489f
+C3 vdd a_2060_n97# 0.203255f
+C4 Clk_in a_759_n45# 0.007326f
+C5 Clk_in a_2060_n97# 0.001901f
+C6 output a_1684_n62# 0.008414f
+C7 a_35_1# input 0.004152f
+C8 a_n744_n97# a_759_n45# 0.094919f
+C9 a_n744_n97# a_2060_n97# 0.281212f
+C10 vdd a_1684_n62# 0.641749f
+C11 Clk_in a_1684_n62# 0.052437f
+C12 vdd output 0.037575f
+C13 a_n744_n97# a_1684_n62# 0.248443f
+C14 vdd Clk_in 0.31327f
+C15 output a_n744_n97# 2.29e-19
+C16 a_759_n45# a_411_n97# 0.431871f
+C17 a_2060_n97# a_411_n97# 2.27e-21
+C18 vdd a_n744_n97# 0.949342f
+C19 Clk_in a_n744_n97# 0.153848f
+C20 a_2060_n97# a_2408_n45# 0.395496f
+C21 a_35_1# a_759_n45# 0.497275f
+C22 a_1684_n62# a_411_n97# 0.240441f
+C23 vdd a_n339_n97# 0.228001f
+C24 Clk_in a_n339_n97# 0.028003f
+C25 a_2408_n45# a_1684_n62# 0.52818f
+C26 vdd a_411_n97# 0.288137f
+C27 a_35_1# a_1684_n62# 3e-20
+C28 Clk_in a_411_n97# 0.092402f
+C29 a_n339_n97# a_n744_n97# 0.105447f
+C30 vdd a_2408_n45# 0.038169f
+C31 vdd input 0.089425f
+C32 a_n744_n97# a_411_n97# 0.32027f
+C33 vdd a_35_1# 0.64361f
+C34 Clk_in a_2408_n45# 0.006766f
+C35 input Clk_in 0.011801f
+C36 a_35_1# Clk_in 0.056991f
+C37 a_n744_n97# a_2408_n45# 0.093192f
+C38 input a_n744_n97# 0.039289f
+C39 a_35_1# a_n744_n97# 0.164189f
+C40 a_759_n45# a_1684_n62# 1.02e-20
+C41 input a_n339_n97# 0.055048f
+C42 a_2060_n97# a_1684_n62# 0.344978f
+C43 a_35_1# a_n339_n97# 0.204711f
+C44 output vss 0.303254f
+C45 Clk_in vss 1.602221f
+C46 input vss 0.481046f
+C47 vdd vss 9.65778f
+C48 a_2408_n45# vss 0.241666f
+C49 a_2060_n97# vss 2.21316f
+C50 a_1684_n62# vss 1.39834f
+C51 a_759_n45# vss 0.232516f
+C52 a_411_n97# vss 1.92454f
+C53 a_35_1# vss 1.37009f
+C54 a_n339_n97# vss 0.553672f
+C55 a_n744_n97# vss 4.69548f
